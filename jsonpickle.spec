@@ -4,7 +4,7 @@
 #
 Name     : jsonpickle
 Version  : 1.3
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/8a/6d/92d8dadd0aa7a526fe5466e05e1b26b5fc033183af7dc0c38d67eb69915b/jsonpickle-1.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8a/6d/92d8dadd0aa7a526fe5466e05e1b26b5fc033183af7dc0c38d67eb69915b/jsonpickle-1.3.tar.gz
 Summary  : Python library for serializing any arbitrary object graph into JSON
@@ -16,9 +16,7 @@ Requires: jsonpickle-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 
 %description
-.. image:: https://badge.fury.io/py/jsonpickle.svg
-:target: https://badge.fury.io/py/jsonpickle
-:alt: PyPI
+jsonpickle converts complex Python objects to and from JSON.
 
 %package license
 Summary: license components for the jsonpickle package.
@@ -41,6 +39,7 @@ python components for the jsonpickle package.
 Summary: python3 components for the jsonpickle package.
 Group: Default
 Requires: python3-core
+Provides: pypi(jsonpickle)
 
 %description python3
 python3 components for the jsonpickle package.
@@ -55,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581696661
+export SOURCE_DATE_EPOCH=1583162153
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
