@@ -4,7 +4,7 @@
 #
 Name     : jsonpickle
 Version  : 1.4.2
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/63/df/8072fb98c12d78dd29b4a52c50af7ab548f84166b8a3d363c1c754c14af0/jsonpickle-1.4.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/63/df/8072fb98c12d78dd29b4a52c50af7ab548f84166b8a3d363c1c754c14af0/jsonpickle-1.4.2.tar.gz
 Summary  : Python library for serializing any arbitrary object graph into JSON
